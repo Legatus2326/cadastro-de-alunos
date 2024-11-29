@@ -4,4 +4,4 @@
 
 ## Equipe
 - Artur Pigari Prata.
-- Marlus Zabla Lipsuk
+- Marlus Zabla Lipsuk.
