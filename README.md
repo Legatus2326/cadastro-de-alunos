@@ -9,3 +9,5 @@
 ## Refereências
 - Chat GPT.
 - GitHub comunity.
+
+Consulte o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para entender como contribuir para o projeto.  
