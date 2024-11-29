@@ -1,0 +1,32 @@
+         +--------------------------+
+         |  ValidacaoCPFStrategy    |
+         |--------------------------|
+         | + validar(cpf: String): boolean |
+         +--------------------------+
+             /            \
+            /              \
++-------------------+  +---------------------+
+| ValidacaoCPFSimples |  | ValidacaoCPFComplexa |
+|-------------------|  |---------------------|
+| + validar(cpf: String): boolean |  | + validar(cpf: String): boolean |
++-------------------+  +---------------------+
+             |
+             |
++--------------------+
+| Aluno              |
+|--------------------|
+| - ra: String       |
+| - nome: String     |
+| - nascimento: Date |
+| - cpf: String      |
+| - validacaoCPFStrategy: ValidacaoCPFStrategy |
+|--------------------|
+| + validarCPF(): boolean |
++--------------------+
+             |
+             |
+       +----------------------+
+       | Main                 |
+       |----------------------|
+       | + main(): void       |
+       +----------------------+
