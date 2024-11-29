@@ -5,3 +5,7 @@
 ## Equipe
 - Artur Pigari Prata.
 - Marlus Zabla Lipsuk.
+
+## Refereências
+- Chat GPT.
+- GitHub comunity.
