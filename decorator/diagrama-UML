@@ -1,0 +1,42 @@
++-----------------+
+|  <<interface>>  |
+|   ValidadorRA    |
++-----------------+
+| + validar(ra: String): boolean |
++-----------------+
+          ^
+          |
+          |
++---------------------+
+|   BaseValidadorRA   |
++---------------------+
+| + validar(ra: String): boolean |
++---------------------+
+          ^
+          |
+          | Implements
+          |
++---------------------------+
+|   ValidadorRADecorador    |
++---------------------------+
+| - validadorEnvolvido: ValidadorRA |
++---------------------------+
+| + validar(ra: String): boolean    |
+| + ValidadorRADecorador(validador: ValidadorRA) |
++---------------------------+
+          ^
+          |
+    ---------------
+    |             |
++-------------------------+    +----------------------+
+|  ValidadorComecaComA    |    |   ValidadorTamanho   |
++-------------------------+    +----------------------+
+| + validar(ra: String): boolean |  | + validar(ra: String): boolean |
+| + ValidadorComecaComA(validador: ValidadorRA) |  | + ValidadorTamanho(validador: ValidadorRA) |
++-------------------------+    +----------------------+
+
++----------------------+
+|      Principal       |
++----------------------+
+| + main(args: String[]): void |
++----------------------+
